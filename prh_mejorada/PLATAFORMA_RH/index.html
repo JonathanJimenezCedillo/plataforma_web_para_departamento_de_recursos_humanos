@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Vista/styles/normalize.css">
+    <link rel="stylesheet" href="Vista/styles/styles_index.css">
+    <title>LOGIN</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1>RECURSOS HUMANOS</h1>
+    </header>
+    <form action="Modelo/sesiones.php" class="formulario" method="POST">
+        <fieldset class="contenedor">
+            <img src="Vista/img/logos/logo2.jpg" alt="" srcset="">
+            <legend>LOGIN</legend>
+            <ul>
+                <li>
+                    <label for="u">USUARIO</label>
+                    <input type="text" id="u" name="users" required>
+                </li>
+
+                <li>
+                    <label for="c">CONTRASEÑA</label>
+                    <input type="password" id="c" name="passw" required>
+                </li>
+
+                <li>
+                    <input type="submit" value="ENTRAR" class="button" name="aceptar">
+                </li>
+            </ul>
+
+        </fieldset>
+    </form>
+    <footer class="pie-pagina">
+           <div class="container">
+                <img id="img" src="Vista/img/logos/logo-en-grande.png" alt="" srcset="">
+           </div>
+    </footer>
+</body>
+</html>

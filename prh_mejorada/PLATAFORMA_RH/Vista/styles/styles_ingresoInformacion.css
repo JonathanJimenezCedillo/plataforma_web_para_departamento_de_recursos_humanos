@@ -1,0 +1,63 @@
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+fieldset{
+    margin: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input[type=file]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+input[type=button]{
+    background: blue;
+    color: white;
+    margin-top: 5px;
+}
+select{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+    font-weight: bolder;
+}
+legend{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: red;
+}
+.cabecera{
+    text-align: center;
+    background-color: green;
+    color: lavender;
+    border-radius: 0.3rem;
+}
+
+.discapacidad{
+    display: block;
+    width: 100%;
+    height: 25px;
+}
+label{
+    font-weight:bolder;
+    color:grey;
+}
+.ventanaEmergente{
+    display:none;
+}
+
+
+

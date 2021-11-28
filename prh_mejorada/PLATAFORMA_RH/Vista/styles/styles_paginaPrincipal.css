@@ -1,0 +1,73 @@
+.contenedor{
+    text-align: center;
+    display: block;
+    width: 73%;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+.botonimagenIngresar{
+    background-image: url(../img/paginaPrincipal/subirArchivos.png);
+    width: 230px;
+    height: 200px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botonimagenConsultar{
+    background-image: url(../img/paginaPrincipal/busquedaInformacion.png);
+    width: 230px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botonimagenInformacionAdicional{
+    background-image: url(../img/paginaPrincipal/buscando.jpg);
+    width: 230px;
+    height: 200px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+fieldset{
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: none;
+}
+
+li{
+    list-style: none;
+}
+div{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+}
+.cabecera{
+    text-align: center;
+    background-color: green;
+    color: lavender;
+    border-radius: 0.3rem;
+}
+
+.pie-pagina{
+    background-image: url(../img/logos/logo-en-grande.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{
+    display: block;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color:white;
+    text-align: right;
+}
